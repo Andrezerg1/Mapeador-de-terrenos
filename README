@@ -1,2 +1,23 @@
 O Mapeador de terrenos é uma ferramenta que possibilita realizar o processamento de imagens e informações de terrenos, a partir de 
 imagens aéreas, a fim de facilitar o processo de divulgação imobiliária.
+
+O sistema funciona com uma interface simples e objetiva, que solicita ao usuário que selecione uma imagem para ser editada, a partir disso, ele insere
+a área total do terreno (em m²) e abre o editor. Com o editor aberto, basta selecionar as quatro extremidades do terreno, e o programa irá
+traçar as linhas e inserir a área total no centro da imagem.
+
+Como utilizar o sistema?
+I - Faça download do arquivo Mapeador.exe
+II - Execute o programa, uma interface será aberta.
+III - Acesse o google earth, tire print da imagem área de algum imóvel (se quiser dimensões 2D) ou apenas insira a foto
+da frente de um terreno (se quiser dimensões 3D)
+IV - Após inserir a imagem, selecione-a e informe a área total do terreno em m².
+V - Abra o editor, e selecione as 4 extremidades do imóvel, após isso, o programa irá traçar as linhas e informar a área inserida.
+VI - Feche a janela de edição, a imagem editada foi salva automáticamente.
+VII - Exporte a imagem clicando no botão "Salvar imagem".
+
+Tecnologias utilizadas:
+Para desenvolver esse programa, utilizei a linguagem python e algumas de suas bibliotecas.
+Para realizar o tratamento da imagem, utiizei a biblioteca OpenCV, Junto a ele, utilizei a biblioteca Numpy para
+tratar os pontos setados utilizando matrizes matemáticas.
+Para desenvolver a interface, utilizei a biblioteca Tkinter, que possibilita a criação de interfaces intuitivas.
+E para a importação e exportação de imagens, utilizei a biblioteca Pillow, que permite tratar diferentes tipos de imagens em python.
