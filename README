@@ -1,25 +1,43 @@
-O Mapeador de terrenos é uma ferramenta que possibilita realizar o processamento de imagens e informações de terrenos, a partir de 
-imagens aéreas, a fim de facilitar o processo de divulgação imobiliária.
+Mapeador de Terrenos
 
-O sistema funciona com uma interface simples e objetiva, que solicita ao usuário que selecione uma imagem para ser editada, a partir disso, ele insere
-a área total do terreno (em m²) e abre o editor. Com o editor aberto, basta selecionar as quatro extremidades do terreno, e o programa irá
-traçar as linhas e inserir a área total no centro da imagem.
+O Mapeador de Terrenos é uma ferramenta desenvolvida para realizar o processamento de imagens e inserção de informações visuais
+em terrenos a partir de imagens aéreas ou fotografias convencionais.
+O sistema foi criado com o objetivo de facilitar e padronizar o processo de divulgação imobiliária, tornando a apresentação de lotes
+mais clara, profissional e informativa.
 
-Como utilizar o sistema?
-I - Faça download do arquivo Mapeador.exe
-II - Execute o programa, uma interface será aberta.
-III - Acesse o google earth, tire print da imagem área de algum imóvel (se quiser dimensões 2D) ou apenas insira a foto
-da frente de um terreno (se quiser dimensões 3D)
-IV - Após inserir a imagem, selecione-a e informe a área total do terreno em m².
-V - Abra o editor, e selecione as 4 extremidades do imóvel, após isso, o programa irá traçar as linhas e informar a área inserida.
-VI - Feche a janela de edição, a imagem editada foi salva automáticamente.
-VII - Exporte a imagem clicando no botão "Salvar imagem".
+A aplicação permite que o usuário selecione uma imagem do terreno, informe a área total em metros quadrados (m²)
+e utilize um editor interativo para definir manualmente as quatro extremidades do lote.
+A partir desses pontos, o sistema realiza o traçado automático das linhas de contorno e insere a área total no centro da imagem,
+gerando uma versão final pronta para divulgação.
 
-Tecnologias utilizadas:
-Para desenvolver esse programa, utilizei a linguagem python e algumas de suas bibliotecas.
-Para realizar o tratamento da imagem, utiizei a biblioteca OpenCV, Junto a ele, utilizei a biblioteca Numpy para
-tratar os pontos setados utilizando matrizes matemáticas.
-Para desenvolver a interface, utilizei a biblioteca Tkinter, que possibilita a criação de interfaces intuitivas.
-E para a importação e exportação de imagens, utilizei a biblioteca Pillow, que permite tratar diferentes tipos de imagens em python.
+O foco do projeto é oferecer uma solução simples do ponto de vista de usabilidade,
+mas estruturada tecnicamente para realizar manipulação de imagem, tratamento de coordenadas e renderização gráfica de forma eficiente.
 
-Link para download: https://www.mediafire.com/file/gkrlzy5w3femdps/Mapeador.exe/file
+O sistema oferece as seguintes funcionalidades:
+
+-Importação de imagens aéreas ou fotografias de terrenos.
+-Inserção manual da área total do lote (em m²).
+-Editor interativo para seleção dos quatro vértices do terreno.
+-Geração automática do contorno do lote a partir dos pontos definidos.
+-Inserção centralizada da área total na imagem.
+-Salvamento automático da imagem editada.
+-Exportação manual da imagem final através da interface.
+
+Como utilizar o sistema:
+
+I - Faça o download do arquivo Mapeador.exe.
+II - Execute o programa; a interface principal será aberta automaticamente.
+III - Utilize uma imagem aérea (por exemplo, capturada via Google Earth) caso deseje trabalhar com perspectiva 2D, ou utilize uma imagem frontal do terreno caso deseje uma representação visual mais tridimensional.
+IV - Após selecionar a imagem dentro do sistema, informe a área total do terreno em metros quadrados (m²).
+V - Abra o editor e selecione, por meio de cliques, as quatro extremidades do imóvel. O sistema irá traçar automaticamente as linhas do perímetro e inserir a área informada no centro da imagem.
+VI - Ao fechar a janela de edição, a imagem processada será salva automaticamente.
+VII - Utilize o botão “Salvar imagem” para exportar o arquivo final.
+
+O projeto foi desenvolvido em Python, utilizando bibliotecas específicas para interface gráfica e processamento de imagens:
+
+- OpenCV: responsável pelo processamento da imagem, desenho das linhas do polígono e renderização dos elementos gráficos.
+- NumPy: utilizado para manipulação matemática das coordenadas e tratamento dos pontos definidos pelo usuário.
+- Tkinter: responsável pela construção da interface gráfica da aplicação.
+- Pillow (PIL): utilizada para importação, exportação e suporte a diferentes formatos de imagem.
+
+Download disponível em: https://www.mediafire.com/file/gkrlzy5w3femdps/Mapeador.exe/file
