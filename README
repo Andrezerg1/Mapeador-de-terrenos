@@ -21,3 +21,5 @@ Para realizar o tratamento da imagem, utiizei a biblioteca OpenCV, Junto a ele, 
 tratar os pontos setados utilizando matrizes matemáticas.
 Para desenvolver a interface, utilizei a biblioteca Tkinter, que possibilita a criação de interfaces intuitivas.
 E para a importação e exportação de imagens, utilizei a biblioteca Pillow, que permite tratar diferentes tipos de imagens em python.
+
+Link para download: https://www.mediafire.com/file/gkrlzy5w3femdps/Mapeador.exe/file
