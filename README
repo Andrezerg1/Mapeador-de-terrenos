@@ -41,3 +41,5 @@ O projeto foi desenvolvido em Python, utilizando bibliotecas específicas para i
 - Pillow (PIL): utilizada para importação, exportação e suporte a diferentes formatos de imagem.
 
 Download disponível em: https://www.mediafire.com/file/gkrlzy5w3femdps/Mapeador.exe/file
+
+Caso queira testar o código fonte, utilize o requirements.txt em um ambiente virtual.
