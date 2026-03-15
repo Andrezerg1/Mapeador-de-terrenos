@@ -18,7 +18,7 @@ O sistema oferece as seguintes funcionalidades:
 -Importação de imagens aéreas ou fotografias de terrenos.
 -Inserção manual da área total do lote (em m²).
 -Editor interativo para seleção dos quatro vértices do terreno.
--Geração automática do contorno do lote a partir dos pontos definidos.
+-Geração automática do contorno do lote a partir dos pontos definidos. 
 -Inserção centralizada da área total na imagem.
 -Salvamento automático da imagem editada.
 -Exportação manual da imagem final através da interface.
