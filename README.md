@@ -1,0 +1,45 @@
+# Mapeador de Terrenos
+
+O Mapeador de Terrenos é uma ferramenta desenvolvida para realizar o processamento de imagens e inserção de informações visuais
+em terrenos a partir de imagens aéreas ou fotografias convencionais.
+O sistema foi criado com o objetivo de facilitar e padronizar o processo de divulgação imobiliária, tornando a apresentação de lotes
+mais clara, profissional e informativa.
+
+A aplicação permite que o usuário selecione uma imagem do terreno, informe a área total em metros quadrados (m²)
+e utilize um editor interativo para definir manualmente as quatro extremidades do lote.
+A partir desses pontos, o sistema realiza o traçado automático das linhas de contorno e insere a área total no centro da imagem,
+gerando uma versão final pronta para divulgação.
+
+O foco do projeto é oferecer uma solução simples do ponto de vista de usabilidade,
+mas estruturada tecnicamente para realizar manipulação de imagem, tratamento de coordenadas e renderização gráfica de forma eficiente.
+
+## O sistema oferece as seguintes funcionalidades:
+
+  * Importação de imagens aéreas ou fotografias de terrenos.
+  * Inserção manual da área total do lote (em m²).
+  * Editor interativo para seleção dos quatro vértices do terreno.
+  * Geração automática do contorno do lote a partir dos pontos definidos. 
+  * Inserção centralizada da área total na imagem.
+  * Salvamento automático da imagem editada.
+  * Exportação manual da imagem final através da interface.
+
+## Como utilizar o sistema:
+
+  1. Faça o download do arquivo Mapeador.exe.
+  2. Execute o programa; a interface principal será aberta automaticamente.
+  3. Utilize uma imagem aérea (por exemplo, capturada via Google Earth) caso deseje trabalhar com perspectiva 2D, ou utilize uma imagem frontal do terreno caso deseje uma representação visual mais tridimensional.
+  4. Após selecionar a imagem dentro do sistema, informe a área total do terreno em metros quadrados (m²).
+  5. Abra o editor e selecione, por meio de cliques, as quatro extremidades do imóvel. O sistema irá traçar automaticamente as linhas do perímetro e inserir a área informada no centro da imagem.
+  6. Ao fechar a janela de edição, a imagem processada será salva automaticamente.
+  7. Utilize o botão “Salvar imagem” para exportar o arquivo final.
+
+## O projeto foi desenvolvido em Python, utilizando bibliotecas específicas para interface gráfica e processamento de imagens:
+
+  * OpenCV: responsável pelo processamento da imagem, desenho das linhas do polígono e renderização dos elementos gráficos.
+  * NumPy: utilizado para manipulação matemática das coordenadas e tratamento dos pontos definidos pelo usuário.
+  * Tkinter: responsável pela construção da interface gráfica da aplicação.
+  * Pillow (PIL): utilizada para importação, exportação e suporte a diferentes formatos de imagem.
+
+### Download disponível em: https://www.mediafire.com/file/gkrlzy5w3femdps/Mapeador.exe/file
+
+Caso queira testar o código fonte, utilize o requirements.txt em um ambiente virtual.
